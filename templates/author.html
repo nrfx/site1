@@ -1,0 +1,44 @@
+{% extends "__layout.html" %}
+
+{% block content %}
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h5>Завалин Семён Владимирович</h5>
+          <h5>Группа: ИСТб-24-2</h5>
+          <h5>Дата рождения: 16.02.2006</h5>
+          <h5>Место жительства: г. Иркутск</h5>
+          <h5>До политеха учился в МБОУ СОШ №57 г. Иркутска</h5> 
+          <h5>Изучал JavaScript, React, Python</h5>
+        </div>
+        <div class="col mb-4">
+          <h4>My socials:</h4>
+          <br>
+          <h1><a class="icon-link" href="https://www.t.me/exrwzy/"><i class="bi bi-telegram"></i></a> 
+            <a class="icon-link" href="https://www.github.com/nrfx"><i class="bi bi-github"></i></a>
+            <!-- button -->
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <i class="bi bi-envelope-at-fill"></i>
+            </button>
+
+            <!-- modal window -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">E-Mail</h5>
+                  </div>
+                  <div class="modal-body">
+                    zavalin001@mail.ru
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </h1>
+        </div>
+      </div>
+    </div>
+{% endblock %}
