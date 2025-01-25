@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+  }
+
+  
+@font-face {
+    font-family: 'SF Pro';
+    src: url('/static/SFProText-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link.active {
+    background-color: whitesmoke;
+}
+.nav-link{
+    color:black;
+}
+
+.icon-link{
+    color:black;
+}
+
+
+.container-iphone {
+    position: absolute;
+    left: 32%;
+    width: 700px;
+    display: grid;  
+}
+
+#footer{
+    grid-template-rows: 1fr auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-inner {
+    height: 710px; /* Задайте фиксированную высоту для контейнера карусели */
+    object-fit: contain;
+}
+.carousel-image {
+    height: 100%;
+    object-fit: contain; /* Изображения будут адаптироваться к высоте контейнера, сохраняя свои пропорции */
+}
+
+.img-name {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.row-header {
+    margin-bottom: 3;
+    justify-content: center;
+}
+
+.row-text{
+    margin-bottom: 3;
+}
+
+body {
+    font-family: 'SF Pro', sans-serif;
+}
+
+h1, h3 {
+    font-family: 'SF Pro', sans-serif;
+    font-weight: 500;
+}
+
+.row-author{
+    margin-bottom: 4;
+}
+
+.index-row{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.index-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iphone-model {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.iphone-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ipad-model {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.ipad-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.macbook-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.macbook-model {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
